@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="25.582282913165244" y="681.0">SimulationManager</node>
+    <node x="108.44712885154055" y="0.0">Task</node>
+    <node x="53.089285714285666" y="293.0">Server</node>
+    <node x="15.464285714285666" y="509.0">Scheduler</node>
+    <node x="0.0" y="1228.0">Controller</node>
+    <node x="69.92261904761898" y="1432.0">View</node>
+    <node x="76.92261904761898" y="2066.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Server" target="Task">
+      <point x="-46.5" y="-83.0" />
+      <point x="99.58928571428567" y="273.0" />
+      <point x="148.94712885154055" y="273.0" />
+      <point x="-40.5" y="116.5" />
+    </edge>
+    <edge source="SimulationManager" target="Server">
+      <point x="-2.8421709430404007E-14" y="-248.5" />
+      <point x="187.58228291316522" y="661.0" />
+      <point x="201.96428571428567" y="661.0" />
+      <point x="201.96428571428567" y="484.0" />
+      <point x="215.83928571428567" y="484.0" />
+      <point x="69.75" y="83.0" />
+    </edge>
+    <edge source="SimulationManager" target="View">
+      <point x="121.50000000000003" y="248.5" />
+      <point x="309.0822829131653" y="1203.0" />
+      <point x="257.5" y="1203.0" />
+      <point x="257.5" y="1412.0" />
+      <point x="220.25595238095232" y="1412.0" />
+      <point x="68.33333333333334" y="-292.0" />
+    </edge>
+    <edge source="SimulationManager" target="Task">
+      <point x="138.85714285714292" y="-248.5" />
+      <point x="326.43942577030816" y="651.0" />
+      <point x="271.58928571428567" y="651.0" />
+      <point x="271.58928571428567" y="253.0" />
+      <point x="256.9471288515406" y="253.0" />
+      <point x="67.5" y="116.5" />
+    </edge>
+    <edge source="Controller" target="SimulationManager">
+      <point x="-59.0" y="-72.0" />
+      <point x="59.0" y="1203.0" />
+      <point x="66.08228291316524" y="1203.0" />
+      <point x="-121.5" y="248.5" />
+    </edge>
+    <edge source="Controller" target="View">
+      <point x="29.5" y="72.0" />
+      <point x="147.5" y="1412.0" />
+      <point x="138.25595238095232" y="1412.0" />
+      <point x="-13.666666666666657" y="-292.0" />
+    </edge>
+    <edge source="View" target="Controller">
+      <point x="-68.33333333333331" y="-292.0" />
+      <point x="83.58928571428567" y="1412.0" />
+      <point x="29.5" y="1412.0" />
+      <point x="-88.5" y="72.0" />
+    </edge>
+    <edge source="SimulationManager" target="Scheduler">
+      <point x="-92.57142857142864" y="-248.5" />
+      <point x="95.0108543417366" y="661.0" />
+      <point x="103.46428571428567" y="661.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="Scheduler" target="Server">
+      <point x="-22.0" y="-61.0" />
+      <point x="81.46428571428567" y="484.0" />
+      <point x="76.33928571428567" y="484.0" />
+      <point x="-69.75" y="83.0" />
+    </edge>
+    <edge source="Scheduler" target="Task">
+      <point x="-66.0" y="-61.0" />
+      <point x="37.464285714285666" y="484.0" />
+      <point x="42.589285714285666" y="484.0" />
+      <point x="42.589285714285666" y="263.0" />
+      <point x="121.94712885154055" y="263.0" />
+      <point x="-67.5" y="116.5" />
+    </edge>
+    <edge source="Main" target="View">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="292.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="941.9999999999999" y="1597.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
